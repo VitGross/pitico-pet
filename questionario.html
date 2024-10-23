@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Pitico Pet</title>
+
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+    <link rel="shortcut icon" href="IMG/pitico-pet-logo.ico" type="image/x-icon">
+</head>
+<body>
+
+    <section id="fundo">
+
+        <picture>
+            <img id="banner" src="IMG/Banner.jpg" alt="Banner da Pitico Pet">
+        </picture>
+
+        <div id="bloco-fundo">
+
+        </div>
+        
+    </section>
+
+    <header>
+
+        <div id="slogan-area">
+            <p id="slogan-p1">Cuidado e Carinho?</p>
+            <p id="slogan-p2">SÓ PODIA SER PITICOS</p>
+        </div>
+
+    </header>
+
+    <section id="bloco-principal">
+
+        <main>
+            <nav>
+                <ul id="menu-nav">
+                    <li class="item-nav">
+                        <a href="index.html">Pagina Inicial</a>
+                    </li>
+                    <li class="item-nav">
+                        <a href="loja.html">Loja</a>
+                    </li>
+                    <li class="selecionado">
+                        <a href="questionario.html">Questionário</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <h1 id="titulo-principal">QUESTIONÁRIO</h1>
+
+            <form id="questionario">
+                <label for="quest-nome">Nome:</label>
+                <input type="text" id="quest-nome" name="nome" required>
+    
+                <label for="quest-email">Email:</label>
+                <input type="email" id="quest-email" name="email" required>
+    
+                <label for="quest-telefone">Telefone:</label>
+                <input type="tel" id="quest-telefone" name="telefone" required>
+    
+                <label for="quest-endereco">Endereço:</label>
+                <input type="text" id="quest-endereco" name="endereco" required>
+    
+                <label for="quest-pet">Tem algum pet?</label>
+                <select id="quest-pet" name="pet">
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+
+                <label for="quest-pet2">Qual o seu pet?:</label>
+                <input type="text" id="quest-pet2" name="pet2" required>
+
+                <label for="quest-loja">Os produtos e serviços da nossa loja foram satisfatóriros?:</label>
+                <select id="quest-loja" name="av-loja">
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+
+                <label for="quest-site">O site tem uma aparencia agradável e intuitiva?:</label>
+                <select id="quest-site" name="av-site">
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+
+                <label for="quest-coment">Adicione um comentário pessoal sobre o site:</label>
+                <input type="text" id="quest-coment" name="coment" required>
+
+                <label for="quest-classi">Por fim, como você classificaria nosso site?:</label>
+                <select id="quest-classi" name="classi">
+                    <option value="exelente">Exelente</option>
+                    <option value="bom">Bom</option>
+                    <option value="medio">Médio</option>
+                    <option value="ruim">Ruim</option>
+                    <option value="pessimo">Péssimo</option>
+                </select>
+    
+                <button type="submit">Enviar Respostas</button>
+            </form>
+            
+            <div id="resultado"></div>
+                
+        </main>
+
+        <footer>
+            <ul id="listinha-footer">
+                <li class="item-footer">
+                    <strong class="strong-footer">Criadores</strong>
+                    <p class="texto-footer">Vitor Muratori Gross e Felipe Moura da Silva</p>
+                </li>
+                <li class="item-footer">
+                    <strong class="strong-footer">Contato</strong>
+                    <p class="texto-footer">vitormgross@gmail.com</p>
+                </li>
+                <li class="item-footer">
+                    <strong class="strong-footer">Motivo</strong>
+                    <p class="texto-footer">Trabalho para conclusão do bimestre de PLB1 do IFSP-Cubatão</p>
+                </li>
+            </ul>
+        </footer>
+
+    </section> 
+
+</body>
+</html>

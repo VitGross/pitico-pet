@@ -1,0 +1,438 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FEFAE0;
+    font-family: 'Arima', arial, sans-serif;
+}
+
+/* Fundo */
+#banner {
+    width: 100%;
+    height: auto;
+}
+
+#bloco-fundo {
+    background-color: #BC6C25;
+    position: relative;
+    top: -10px;
+    width: 100%;
+    height: 400px;
+}
+
+/* Slogan */
+#slogan-area{
+    position: relative;
+    text-align: center;
+    top: -1000px;
+}
+
+#slogan-p1{
+    color: #FEFAE0;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+}
+
+#slogan-p2{
+    color: #FEFAE0;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: -10px;
+}
+
+/* Bloco Principal */
+#bloco-principal {
+    background-color: #FEFAE0;
+    border: 2px solid #BC6C25;
+    position: relative;
+    top: -950px;
+    text-align: center;
+    margin: 60px;
+    padding: 40px;
+}
+
+/* Localização dos Textos*/
+#sobre{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#historia-bloco{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#reflexao-pessoal-bloco{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+/* Formatação dos Textos Home */
+h1 {
+    color: #BC6C25;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #BC6C25;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    color: #BC6C25;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #CD8742;
+    font-size: 17px;
+    margin: 20px;
+    text-align: justify;
+}
+
+p#reflexao-pessoal-texto{
+    text-align: center;
+}
+
+strong {
+    color: #BC6C25;
+}
+
+a {
+    color: #BC6C25;
+}
+
+a:hover {
+    text-decoration: dashed;
+
+}
+
+/* Menu de Navegação */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    margin: 15px;
+}
+
+nav ul li a {
+    color: #BC6C25;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li.selecionado {
+    font-weight: bold;
+}
+
+/* Formatação de Figuras */
+figure {
+    text-align: center;
+    margin: 20px;
+}
+
+figcaption {
+    font-size: 15px;
+    color: #DDA15E;
+}
+
+/* Formatação dos Diferenciais */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    gap: 20px; 
+}
+
+.diferenciais {
+    flex: 1 1 calc(33.33% - 20px); 
+    margin: 10px;
+    padding: 20px; 
+    border-radius: 20px;
+    background-color: #BC6C25;
+    box-sizing: border-box; 
+}
+
+.texto-dos-diferenciais {
+    margin: 5px;
+    text-align: justify;
+    color: #FEFAE0;
+}
+
+.negrito-dos-diferenciais {
+    margin: 5px;
+    text-align: center;
+    color: #FEFAE0;
+}
+
+/* Formatação do Footer */
+footer {
+    color: #BC6C25;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+#listinha-footer {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.strong-footer {
+    margin-top: 300px;
+    margin-bottom: -15px;
+
+}
+
+/* !CSS DA LOJA */
+
+/* Localização dos Textos*/
+#sobre-loja{
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+
+/* Formatação dos Textos Loja */
+.texto-loja{
+    text-align: center;
+}
+
+.texto-dos-produtos{
+    margin: 10px;
+    text-align: center;
+    color:#FEFAE0
+
+}
+
+.negrito-dos-produtos{
+    margin: 5px;
+    text-align: center;
+    color:#FEFAE0
+
+}
+
+.a-produtos {
+    color: #FEFAE0;
+    font-weight: bold;
+
+}
+
+/* Formatação dos Produtos */
+.container-produto{
+    display: flex;
+    margin: 10px;
+
+}
+
+.produto{
+    flex-direction: column;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #BC6C25;
+
+}
+
+.container-imagem{
+    flex-direction: column;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.imagem-produto{
+    width: 200px; 
+    height: 200px; 
+    border: 2px solid #BC6C25;
+    border-radius: 10px;
+    margin: 5px 0;
+
+}
+
+/* !CSS DO QUESTIONÁRIO */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+
+label {
+    color: #CD8742;
+    margin: 10px;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+input, select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #CD8742;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #BC6C25;
+    color: #FEFAE0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #CD8742;
+}
+
+
+
+/* *Compatibilidade Multi-Dispositivo */
+@media (max-width: 768px) {
+    main {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    #menu-nav {
+        flex-direction: column;
+    }
+
+    #menu-nav li {
+        margin: 10px 0;
+    }
+
+    .container-produto {
+        flex-direction: column;
+    }
+
+    .produto {
+        width: 100%;
+    }
+
+    .negrito-dos-produtos {
+        font-size: 22px;
+    }
+
+    .texto-dos-produtos {
+        font-size: 15px;
+    }
+
+    img{
+        width: 60%;
+        height: auto;
+
+    }
+
+    .img-produto {
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    main {
+        margin: 40px;
+    }
+
+    .container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .produto {
+        width: 48%;
+    }
+
+    #diferenciais-container {
+        flex-direction: row;
+    }
+
+    .diferenciais {
+        flex: 1 1 calc(50% - 20px);
+    }
+
+    img{
+        width: 80%;
+        height: auto;
+
+    }
+}
+
+@media (min-width: 1025px) {
+    main {
+        margin: 60px;
+    }
+
+    .produto {
+        width: 48%;
+    }
+
+    .img-produto {
+        max-width: 100%;
+    }
+
+    footer {
+        padding: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -15,6 +15,14 @@ body {
 #banner {
     width: 100%;
     height: auto;
+
+}
+
+#bloco-banner{
+    width: 100%;
+    height: auto;
+    background-color: #CD8742;
+    
 }
 
 #bloco-fundo {

@@ -160,6 +160,14 @@ figcaption {
     color: #DDA15E;
 }
 
+#centro-distribuicao{
+    border: 2px solid #BC6C25;
+}
+
+#familia-nascimento{
+    border: 2px solid #BC6C25;
+}
+
 /* Formatação dos Diferenciais */
 .container {
     display: flex;
@@ -333,11 +341,6 @@ button:hover {
 
 /* *Compatibilidade Multi-Dispositivo */
 @media (max-width: 768px) {
-    main {
-        margin: 20px;
-        padding: 20px;
-    }
-
     #menu-nav {
         flex-direction: column;
     }
@@ -348,10 +351,6 @@ button:hover {
 
     .container-produto {
         flex-direction: column;
-    }
-
-    .produto {
-        width: 100%;
     }
 
     .negrito-dos-produtos {
@@ -368,26 +367,12 @@ button:hover {
 
     }
 
-    .img-produto {
-        width: 100%;
-        height: auto;
-    }
-
-
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-    main {
-        margin: 40px;
-    }
-
     .container {
         flex-direction: row;
         justify-content: space-around;
-    }
-
-    .produto {
-        width: 48%;
     }
 
     #diferenciais-container {
@@ -406,14 +391,6 @@ button:hover {
 }
 
 @media (min-width: 1025px) {
-    main {
-        margin: 60px;
-    }
-
-    .produto {
-        width: 48%;
-    }
-
     .img-produto {
         max-width: 100%;
     }
